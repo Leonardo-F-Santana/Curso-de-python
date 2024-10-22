@@ -13,13 +13,23 @@
 # quantos estão em exame final (média entre 4,0 e 7,0) ou quantos estão reprovados (média menor que 4,0). O programa deve solicitar quantos alunos possui a turma
 # e imprimir um quantitativo em cada um dos três casos. EXIBIR O CÓDIGO COM O PRINT RODANDO
 
-aluno = input('Digite o nome do aluno: ')
-nt1 = float(input("Digite a primeira nota do aluno: "))
-nt2 = float(input("Digite a segunda nota do aluno: "))
-media = (nt1 + nt2) / 2
-if media > 7.0:
-    print(f'O aluno {aluno}, ficou com média {media} e foi aprovado!')
-elif media >5:
-    print(f'O aluno {aluno}, ficou com média {media} e ficou de recuperação!')
-else:
-    print(f'O aluno {aluno}, ficou com média {media} e foi reprovado!')
+# aluno = input('Digite o nome do aluno: ')
+# nt1 = 0
+# nt2 = 0
+# media = (nt1 + nt2) / 2
+# while aluno:
+# if media > 7.0:
+#     print(f'O aluno {aluno}, ficou com média {media} e foi aprovado!')
+# elif media >5:
+#     print(f'O aluno {aluno}, ficou com média {media} e ficou de recuperação!')
+# else:
+#     print(f'O aluno {aluno}, ficou com média {media} e foi reprovado!')
+
+
+
+contador = 0
+while contador < 10:
+    contador = contador + 1
+    print(contador)
+print('Fim')
+
