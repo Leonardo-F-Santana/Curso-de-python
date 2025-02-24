@@ -7,7 +7,7 @@ if numero_1 > numero_2:
     print(f'{numero_1} é maior que o {numero_2}')
 
 else:
-    print(f'{numero_2} é menor que {numero_1}')
+    print(f'{numero_2} é maior que {numero_1}')
 
 
 

@@ -21,14 +21,19 @@ Faça um programa que pergunte a hora ao usuário e,
 baseando-se no horário descrito, exiba a saudação apropriada. Ex.
 Bom dia 0-11, boa tarde 12-17, boa noite 18-23
 '''
-# hora = input('Digite a hora: ')
-# if >=0 and <=11:
-#     print('Bom dia')
-hora = input('Digite a hora')
-try:
-    hora = int(hora)
-    if hora == 0 :
-        print('Bom dia!')
+nome = input('Digite seu nome: ')
+hora = int(input('Digite a hora: '))
+if 0<= hora <=11:
+    print(f'Bom dia {nome}!')
+elif 12<= hora <= 18:
+    print(f'Boa tarde {nome}!')
+else:
+    print(f'Boa noite{nome}!')   
+# hora = input('Digite a hora')
+# try:
+#     hora = int(hora)
+#     if hora == 0 :
+#         print('Bom dia!')
 
 
 
