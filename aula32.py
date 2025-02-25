@@ -28,7 +28,7 @@ if 0<= hora <=11:
 elif 12<= hora <= 18:
     print(f'Boa tarde {nome}!')
 else:
-    print(f'Boa noite{nome}!')   
+    print(f'Boa noite {nome}!')   
 # hora = input('Digite a hora')
 # try:
 #     hora = int(hora)
