@@ -1,0 +1,6 @@
+Nota do João: 8.5
+Nota do Pedro: 9.0
+Nota do João: 8.5
+Nota do Pedro: 9.0
+Nota do João: 8.5
+Nota do Pedro: 9.0
