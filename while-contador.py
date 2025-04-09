@@ -17,7 +17,7 @@
 qtd_linhas = 5
 qtd_colunas = 5
 
-linhas = 1
+linha = 1
 
 while linha <= qtd_linhas:
     coluna = 1
